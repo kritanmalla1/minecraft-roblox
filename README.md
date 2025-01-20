@@ -152,13 +152,3 @@ footer .social-media a {
 footer .social-media a:hover {
   color: #f39c12;
 }
-// script.js
-
-// Smooth Scroll for "Learn More" button
-const ctaButton = document.querySelector('.cta-button');
-ctaButton.addEventListener('click', (e) => {
-  e.preventDefault();
-  document.querySelector('#about').scrollIntoView({
-    behavior: 'smooth'
-  });
-});
